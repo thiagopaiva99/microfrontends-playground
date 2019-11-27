@@ -18,4 +18,11 @@ registerApplication(
   () => true
 );
 
+
+registerApplication(
+  'angularJS', 
+  () => import ('./src/angularJS/angularJS.app.js'), 
+  pathPrefix('/angularJS')
+);
+
 start();
