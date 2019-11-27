@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack --config webpack.config.js -p"
+  },
   "dependencies": {
     "single-spa": "^4.4.1"
   },
